@@ -1,0 +1,96 @@
+
+
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  font-weight: bold;
+
+}
+
+.heading {
+  margin-bottom: 20px; 
+  background-color: rgb(110, 58, 200);
+  color:white;
+  padding: 10px 20px;
+  font-size: 20px;
+  
+}
+
+.searchName{
+  font-size: 20px;
+  padding: 3px 50px;
+
+}
+
+.text-box{
+  margin: 0 50px;
+  padding: 5px 6px;
+  border-radius: 5px;
+  text-align: start;
+  border-color: rgb(110, 58, 200);
+}
+
+.text-box clicked{
+  color: black;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+}
+.cardWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-top: 10px;
+  margin: 30px 50px;
+  color: black;
+  background-color:lightsteelblue ;
+  border: 1px solid rgb(90, 35, 185);
+}
+/* .item{
+  margin: 50px 50px;
+  background-color:lightsteelblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+  border: 1px solid rgb(90, 35, 185);
+
+} */
+
+.calCalculate{
+  width: 50%;
+}
+.image{
+  margin: 12px 10px;
+  height: 70px;
+  width: 80px;
+}
+  
+.rate{
+  font-weight: lighter;
+}
+.rateBox{
+  margin-top: 28px;
+
+}
+
+.plusButton{
+  margin: 0px;
+  height: 21px;
+  background-color: rgb(110, 58, 200);
+}
+.body{
+  position: relative;
+}
+.calc{
+  position: absolute;
+  left: 60%;
+  top: 20%;
+}
+
+
+
